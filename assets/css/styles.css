@@ -1,0 +1,231 @@
+*{
+    outline: none;
+}
+.modal-content  {
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    border-radius: 0px !important; 
+}
+
+body{
+    background-color: rgb(21, 32, 43);
+    color: white;
+}
+.fa-twitter{
+    color: white;
+}
+#box{
+    margin: 3%;
+    margin-top: 1%;
+}
+.border-around{
+    border-left:1px solid;
+    border-right:1px solid;
+    border-color:rgb(56, 68, 77);
+}
+.container-fluid{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    /* padding-left: 3%; */
+    /* margin-right: 2%; */
+}
+.nav-link{
+    padding: 2%;
+    color: white;
+    font-size: 22px;
+}
+.nav-item{
+    padding-top: 3%;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.nav-link:hover{
+    color: rgb(29, 161, 242);
+}
+.fa-home{
+    margin: 1%;
+}
+.low-background{
+    background-color:  rgb(21, 32, 43);
+}
+.btn-primary{
+    font-size: 25px;
+    font-weight: 600;
+    border-radius: 24px;
+    background-color: rgb(29, 161, 242);
+    border-color:   rgb(29, 161, 242);
+    padding-left: 25%;
+    padding-right: 25%;
+}
+.btn-primary:hover {
+    border-radius: 24px;
+    font-weight: 600;
+    background-color: rgb(29, 128, 242);
+    border-color:    rgb(29, 128, 242);
+}
+.active{
+    color:  rgb(29, 161, 242);
+}
+.btn-group{
+
+    margin-top: 20%;
+
+}
+.btn-secondary{
+    margin-top: 30%;
+    border: none;
+    border-radius: 24px;
+    background-color: rgb(21, 32, 43);
+}
+.btn-secondary:hover {
+    border-radius: 24px;
+    border: none;
+    background-color: rgb(21, 32, 43);
+}
+.dropdown-menu{
+    border: none;
+    background-color: rgb(21, 32, 43);
+}
+a{
+    color: white;
+}
+a:hover{
+    color: rgb(29, 161, 242);
+    text-decoration: none;
+}
+hr{
+    border-color:rgb(56, 68, 77);
+    margin: 3%;
+}
+#tweet{
+    background-color: rgb(21, 32, 43);
+    color: white;
+    border: none;
+    font-size: 20px;
+    margin: 1%;
+    overflow:hidden;
+    resize:none;
+
+}
+#tweet_tweet{
+    background-color: rgb(21, 32, 43);
+    color: white;
+    border: none;
+    font-size: 20px;
+    margin: 1%;
+    overflow:hidden;
+    resize:none;
+
+}
+
+textarea:focus {outline: none; }
+.card{
+    border:none;
+    padding: 1px;
+    background-color: rgb(21, 32, 43);
+}
+.profile_link:hover{
+color: white;
+   text-decoration: underline;
+}
+.btn{
+    border: 0;
+}
+.blue{
+    margin-right:10% ;
+color: gray;
+}
+.blue:hover{
+color:rgb(29, 161, 242); ;
+}
+.red{
+    cursor: pointer;
+    margin-right:2% ;
+    color: gray;
+}
+.red:hover{
+    color: red;
+}
+.fill{
+    color: red;
+}
+#reply{
+    background-color: rgb(21, 32, 43);
+    color: white;
+    border: none;
+    font-size: 20px;
+    margin: 1%;
+    overflow:hidden;
+    resize:none;
+}
+.close{
+    box-shadow: none;
+    outline: none !important;
+    color: white
+
+}
+.close:hover{
+    color: white;
+    box-shadow: none;
+    outline: none !important;
+   
+}
+button:focus {
+    outline: 0;
+}
+button{
+    outline: none;
+}
+.text{
+    width: 100%;
+    background-color: rgb(21, 32, 43);
+    color: white;
+    border: none;
+    font-size: 20px;
+    margin: 1%;
+    overflow:hidden;
+    resize:none;
+}
+.fa-search{
+    margin-right: 9px;
+}
+.query{
+    width: 80%;
+    background-color: rgb(21, 32, 43);
+    color: white;
+    border: none;
+    font-size: 20px;
+    overflow:hidden;
+    resize:none;
+
+}
+.btn-outline-primary{
+    border:1px solid rgb(29, 161, 242);
+    float: right;
+    border-radius: 25px;
+    
+}
+.card{
+    border-radius: 0;
+}
+@media (max-width: 720px){
+    .padd{
+        margin-top: 0%;
+        margin-bottom: 2%;
+    }
+    .hide{
+        display: none;
+        visibility: hidden;
+    }
+
+}
+.btn-outline-primary-fill{
+    border:1px solid rgb(29, 161, 242);
+    float: right;
+    background-color: rgb(29, 161, 242);
+    border-radius: 25px;
+    color: white;
+    padding: 2%;
+}
